@@ -1,0 +1,15 @@
+{
+  "title": "Ratatouille Provençale",
+  "date": "2015-04-28",
+  "categories": [
+    "french",
+    "pickup",
+    "recipe",
+    "clando"
+  ],
+  "pickup":{
+    "minimum order":4,
+    "price":25,
+    "special order":true
+  }
+}
