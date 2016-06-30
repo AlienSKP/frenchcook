@@ -1,3 +1,5 @@
-$color_base:           #999999;
+$color_base:           darken(#999999,40);
 $color_highlight:      #f40000;
 $color_background:     #dedede;
+$color_dark:           $color_base;
+$color_dark_contrast:  lighten($color_base,40);

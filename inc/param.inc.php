@@ -5,43 +5,43 @@ include ('inc/param/plats.php');
 $absolutePath = '/home/alienskp/frenchcook.ca/';
 
 $categories = [
-  array(
+  "french" => array(
     'name'=>'French'
     ,'slug'=>'french'
     , 'background'=>'img/flag_fr.png'
     , 'mainbar'=>true
   )
-  ,array(
+  ,"italian" => array(
     'name'=>'Italian'
     ,'slug'=>'italian'
     , 'background'=>'img/flag_it.png'
   )
-  ,array(
+  ,"catering" => array(
     'name'=>'Order for pick up or delivery'
     ,'slug'=>'catering'
     ,'icon' => 'e9b0'
     ,'mainbar'=>true
   )
-  ,array(
-    'name'=>'Invite us for dinner'
+  ,"clando" => array(
+    'name'=>'Supper Club'
     ,'slug'=>'clando'
     ,'icon'=>'e9a3'
     , 'mainbar'=>true
   )
-  ,array(
-    'name'=>'Do it yourself'
+  ,"recipe" => array(
+    'name'=>'DIY'
     ,'slug'=>'recipe'
     ,'icon' =>'e9b8'
     , 'mainbar'=>true
   )
-  ,array(
-    'name'=>'Teach me how to do that'
+  ,"teach" => array(
+    'name'=>'Meet & Teach'
     ,'slug'=>'teach'
     ,'icon' => 'e970'
     , 'mainbar'=>true
   )
   ,
-  array(
+  "beer" => array(
     'name' => 'Beer'
     ,'slug' => 'beer'
     ,'icon'=>'e9a2'
