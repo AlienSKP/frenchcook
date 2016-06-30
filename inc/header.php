@@ -15,7 +15,7 @@
   ?>
 </style>
 </head>
-<body>
+<body<?php if($pageBg){echo ' style="background-image:url('.$pageBg.')"';} ?>>
 <header class="header">
   <h1><a href="/">French Cook</a></h1>
 <?php

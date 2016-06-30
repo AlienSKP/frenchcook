@@ -15,6 +15,7 @@ else {
 $string = file_get_contents("inc/param/".$slug."/content.json");
 $content = json_decode($string, true);
 $pageTitle = 'Eat '.$content['title']."in Toronto or learn how to cook it - French Cook Toronto";
+$pageBg = "../inc/param/".$slug."/cover.jpg";
 require_once('inc/header.php');
 ?>
 <article class="content">

@@ -38,7 +38,6 @@ $categories = [
     'name'=>'Meet & Teach'
     ,'slug'=>'teach'
     ,'icon' => 'e970'
-    , 'mainbar'=>true
   )
   ,
   "beer" => array(
