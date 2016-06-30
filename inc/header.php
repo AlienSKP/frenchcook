@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title><?= $pageTitle ?></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <style>
@@ -24,7 +25,7 @@ $extendedBar='';
 foreach ( $categories as $key=>$category){
   $bar=($category['mainbar'])?'mainBar':'extendedBar';
   $$bar.= '<li>';
-  $$bar.='<a href="/?cat='.$category['slug'].'" class="filter" data-filter=".'.$category['slug'].'"';
+  $$bar.='<a href="/#'.$category['slug'].'" class="filter" data-filter=".'.$category['slug'].'"';
   if (isset($category['background'])){
    $$bar.=' style="background-image:url(/'.$category['background'].');width: 100px;border-radius: 50%;background-size: 100% 100%;"';
   }

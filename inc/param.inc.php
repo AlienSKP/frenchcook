@@ -50,7 +50,7 @@ $categories = [
 $allCategories = array();
 // set an array of all categories with Icons
 $haveIcons = array();
-foreach ($categories as $category) {
+foreach ($categories as $slug => $category) {
   array_push($allCategories,$category['slug']);
   if ($category['icon']){
     array_push($haveIcons,$category['slug']);
