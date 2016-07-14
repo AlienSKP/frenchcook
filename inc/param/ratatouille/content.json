@@ -7,9 +7,21 @@
     "recipe",
     "clando"
   ],
+  "description":["Ratatouille is a very simple dish from Provence, so simple that it was one of the first things my mom showed me to cook. It's just a veggie stew! ","You will find a lot of different variations: the ratatouille in Provence is similar to the tatchouka in Tunisia, pisto in Spain or Caponata in Italy. The key ingredient is finding the right veggies and your only challenge will be to cut them properly to make sure you don't end up with a soup. ","This recipe adds a couple ingredients to the traditionnal one: \"petits lardons\", which is thick slices of bacon that are chopped, and Piment d'Espelette for the one who like it hot."],
   "pickup":{
     "minimum order":4,
     "price":25,
     "special order":true
+  },
+  "recipe":{
+    "time":"1h30",
+    "ingredients":["zucchini", "red peppers", "eggplants","onions","piment d'espelette or other hot pepper", "thick bacon slices", "whole tomato cans"],
+    "preparation":[
+      "do this"
+      ,"do that"
+      , "and this again"
+    ],
+    "advice":"here I give some advice for the recipe",
+    "wine":["Bandol rosé", "Depend on meat you serve with"]
   }
 }

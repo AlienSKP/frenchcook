@@ -23,3 +23,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/*
+@font-face {
+  @include font_title;
+  src:url("fonts/STARWARS.eot?") format("eot"),url("fonts/STARWARS.woff") format("woff"),url("fonts/STARWARS.ttf") format("truetype"),url("fonts/STARWARS.svg#STARWARS") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+*/

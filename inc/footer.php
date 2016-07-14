@@ -10,16 +10,11 @@ $(function(){
 <?php if (!$keepLinks) echo' $("header nav a").removeAttr("href");'; ?>
 
   $("nav .moreFiltersLink").on('click',function(){$("header").toggleClass('moreFilters')});
-   var load = (window.location.hash!='') ? {filter:window.location.hash.replace('#', '.')} : '';
-
+   var load = (window.location.hash!='') ? {filter:window.location.hash.replace('#', '.')} :{filter:'.mix'};
+   var callbacks = (window.location.hash!='') ? {onMixEnd: function(state){var hashz = state.activeFilter.replace('.','#');window.location.hash = hashz;}}:'';
    $('#plats').mixItUp({
      load:load,
-    	callbacks: {
-    		onMixEnd: function(state){
-    			var hashz = state.activeFilter.replace('.','#')
-          window.location.hash = hashz;
-    		}
-    	}
+    	callbacks: callbacks
     });
    /*
    $('#plats').mixItUp(<?php if($_GET['cat'] && in_array($_GET['cat'],$allCategories)){
